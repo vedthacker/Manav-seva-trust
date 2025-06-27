@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Donate | Manav Seva Trust</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Manav Seva Trust</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#money">Monetary</a></li>
+        <li><a href="#belongings">Belongings</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="founders.html">Founders</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="money">
+    <h2>Donate via UPI</h2>
+    <p>Scan the QR code below to donate using PhonePe, Google Pay, Paytm or any UPI app.</p>
+  
+    <div class="qr-box">
+      <img src="Qr.png" alt="UPI QR Code for Donation" />
+      <p><strong>UPI ID:</strong> manavseva@upi</p>
+      <p><em>After donating, you may WhatsApp us your name for acknowledgment.</em></p>
+    </div>
+  
+    <p class="note">Every rupee helps us care for the children of Adhar Sankul. Thank you!</p>
+  </section>
+  
+
+  <section id="belongings">
+    <h2>Donate Items</h2>
+    <p>Books, clothes, toys, groceries—every donation makes a difference!</p>
+    <form class="donation-form" method="POST" action="https://formsubmit.co/manavsevatrust.gdm@gmail.com">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="text" name="items" placeholder="Type of Items (e.g., clothes, food)" required />
+        <textarea name="message" placeholder="Your message (optional)"></textarea>
+      
+        
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
+        <input type="hidden" name="_subject" value="New Belongings Donation Submission">
+      
+        <button type="submit">Submit</button>
+      </form>
+      
+    <p class="note">* We'll contact you soon regarding pickup or drop-off.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manav Seva Trust. All rights reserved.</p>
+  </footer>
+</body>
+</html>
