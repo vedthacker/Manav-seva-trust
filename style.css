@@ -499,6 +499,34 @@
   }
 }
 
+.video-section {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.video-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+  position: relative;
+  z-index: 2;
+}
+
+.video-section video {
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-section video:hover {
+  transform: scale(1.01);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+}
+
+
   
   
   
