@@ -41,12 +41,15 @@
     display: flex;
     list-style: none;
     gap: 25px;
+     white-space: nowrap;
+
   }
   
   nav ul li a {
     color: white;
     font-weight: 500;
     transition: 0.3s ease;
+      white-space: nowrap;
   }
   
   nav ul li a:hover {
