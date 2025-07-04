@@ -568,6 +568,24 @@
   filter: brightness(1.05);
 }
 
+.video-container.clean-youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.video-container.clean-youtube iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  pointer-events: none; /* makes it non-clickable like a background */
+}
+
   
   
   
