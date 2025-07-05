@@ -586,6 +586,13 @@
   pointer-events: none; /* makes it non-clickable like a background */
 }
 
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
   
   
   
