@@ -83,7 +83,17 @@
     transition: opacity 1s ease-in-out;
     
   }
-  
+  @media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .slide {
+    object-fit: contain;
+    background-color: black;
+  }
+}
+
   
 
 
